@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.1.1] - 2022-08-30
+
+- add icon
+
 ## [0.1.0] - 2022-08-30
 
 - Initial release
