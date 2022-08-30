@@ -1,0 +1,30 @@
+{
+  "name": "code2snippet",
+  "displayName": "Code to Snippet Converter",
+  "description": "Convert selected code to snippet body format.",
+  "author": {
+    "name": "Li Jiang"
+  },
+  "publisher": "lijiang314",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinkall/code2snippet.git"
+  },
+  "activationEvents": [
+    "onCommand:extension.code2snippet"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "extension.code2snippet",
+      "title": "Convert code to snippet body"
+    }]
+  }
+}
