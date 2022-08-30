@@ -42,7 +42,7 @@ Then copy and paste the converted code to your snippet file.
             "        self.conv2 = nn.Conv2d(20, 50, 5, 1)",
             "        self.fc1 = nn.Linear(4*4*50, 500)",
             "        self.fc2 = nn.Linear(500, 10)",
-        
+      
             "    def forward(self, x):",
             "        x = F.relu(self.conv1(x))",
             "        x = F.max_pool2d(x, 2, 2)",
@@ -66,6 +66,10 @@ Use the snippet like below:
 <img src="images/use-snippet.gif" width="500"/>
 
 ## Release Notes
+
+### 0.1.1
+
+Add icon.
 
 ### 0.1.0
 
